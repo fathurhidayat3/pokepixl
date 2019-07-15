@@ -1,0 +1,158 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "types": ["grass", "poison"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "types": ["grass", "poison"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "types": ["grass", "poison"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "types": ["fire"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "types": ["fire"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "types": ["fire", "flying"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "types": ["water"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "types": ["water"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "types": ["water"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "types": ["bug"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 11,
+      "name": "Metapod",
+      "types": ["bug"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 12,
+      "name": "Butterfree",
+      "types": ["bug", "flying"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 13,
+      "name": "Weedle",
+      "types": ["bug", "poison"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    },
+    {
+      "id": 14,
+      "name": "Kakuna",
+      "types": ["bug", "poison"],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "species": "lorem",
+      "height": 0.5,
+      "weight": 6,
+      "abilities": "Lightning",
+      "gender": "-"
+    }
+  ]
+}
