@@ -16,8 +16,8 @@ import Flex from "../components/commons/Flex";
 class PokemonDetail extends React.Component {
   render() {
     const GET_POKEMON_BY_NAME = gql`
-      {
-        getPokemonByName(name: "${this.props.match.params.name}") {
+      query GetPokemonByName($name: String!) {
+        getPokemonByName(name: $name) {
           id
           name
           abilities
@@ -31,7 +31,10 @@ class PokemonDetail extends React.Component {
     `;
 
     return (
-      <Query query={GET_POKEMON_BY_NAME}>
+      <Query
+        query={GET_POKEMON_BY_NAME}
+        variables={{ name: this.props.match.params.name }}
+      >
         {({ loading, error, data }) => {
           if (loading) return <div className="empty-state">Loading...</div>;
           if (error)
