@@ -1,25 +1,21 @@
 import React from "react";
-import { SidebarContext } from "../../contexts/sidebar-context";
-import Icon from "../commons/Icon";
+import { withRouter } from "react-router-dom";
+import StyledText from "../commons/StyledText";
 import Navbar from "./Navbar";
-import NavbarButton from "./NavbarButton";
-import NavbarPart from "./NavbarPart";
 import NavbarWrapper from "./NavbarWrapper";
 
-const NavbarComponent = () => {
-  const contextSidebar = React.useContext(SidebarContext);
-
+const NavbarComponent = props => {
   return (
     <Navbar>
       <NavbarWrapper>
-        <NavbarPart left>
-          <NavbarButton onClick={contextSidebar.toggleSidebar}>
-            <Icon className="fa fa-bars" />
-          </NavbarButton>
-        </NavbarPart>
+        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+          <StyledText size={"h2"} bold onClick={() => props.history.push("/")}>
+            Pokepixl
+          </StyledText>
+        </div>
       </NavbarWrapper>
     </Navbar>
   );
 };
 
-export default NavbarComponent;
+export default withRouter(NavbarComponent);
